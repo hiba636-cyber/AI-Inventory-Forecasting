@@ -11,6 +11,7 @@ This project applies Machine Learning and Deep Learning techniques to optimize i
 
 ## Methodology
 1. **Data Cleaning & Alignment:** Removing empty rows (`NaN`), aligning 2022 and 2023 datasets, and engineering a 1-day lagged stock feature (`lag_1-STOCK-2023`).
+
 2. **Preprocessing:** Chronological 80/20 train-test split and `MinMaxScaler` normalization.
 3. **Models Evaluated:** **XGBoost Regressor** and **Multi-Layer Perceptron (`MLPRegressor`)**, both optimized using `GridSearchCV`.
 
